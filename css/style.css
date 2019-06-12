@@ -1,0 +1,169 @@
+*{    box-sizing: border-box;}
+body {
+		 font-family: 'Merienda';font-size: 15px;
+ }
+.navbar-brand  { color: #000}
+.navbar {
+	min-height: 70px;}
+.nav-location {
+	margin-left: 25% ;
+	padding-top: 10px
+}
+.nav-item{
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.flag {
+	max-height: 20px;
+	max-width: 20px;
+	margin: 0;
+ 
+ }
+ .nav-item .nav-link.active { color: rgba(0,0,0,.5); }
+
+.nav-item .language {
+	   display: inline-block ;  
+	   margin-right: -29px;
+}
+/* carousel stylee*/
+.carousel .carousel-indicators li {
+	height: 3px ;
+	border: 0;
+	width: 40px ;
+	border-radius: 0;
+	 background-color: rgba(255,255,255,.5);
+}
+.carousel .carousel-indicators li.active{
+      background-color: rgba(255,255,255,1);
+		border: 1px solid #FFF;;
+
+ }
+.carousel-caption{ top:40%}
+.img-slider{
+	min-height: 320px;
+}
+  .text-content { padding-top: 70px ; padding-bottom: 25px}
+  .info {
+	background:#f8f9fa; 
+}
+#Restaurant .info img {
+	max-width: 100%;
+    height: auto;}
+/* style menu resturant*/
+.Menu .Menu-card  {
+	       border: 1px solid rgba(0,0,0,.125);
+           background-color: #fff;
+	       border-radius: 5px;
+ 
+
+} 
+.Menu .Menu-card .img-menu {height: 200px ;  width: 100%}
+.Menu .Menu-card-content {
+    padding: 1.28rem;
+    transition: all 1s ease;
+}
+.Menu .Menu-card-content:hover{
+	-webkit-transform: scale(1.07);
+	-moz-transform: scale(1.07);
+	-o-transform: scale(1.07);
+	-ms-transform: scale(1.07);
+	transform: scale(1.07);
+}
+.Menu .Menu-card-content h4 { font-size: 20px}
+.Menu .Menu-card .Menu-card-items {
+	border: 1px solid rgba(0,0,0,.125);
+	background-color: #fff ;
+    padding: .84rem 1.25rem;
+	border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+	margin-bottom: -1px;
+}
+.Menu .Menu-card .Menu-card-items:last-child {margin-bottom: 0 ;  
+	border-bottom: 0;
+}
+/* end menu*/
+/* start ~ Reservation ~*/
+.reservat-content {
+	position: relative ;
+}
+.reservat-content .reservat-img {
+	     width:  100%;
+	     max-height: 750px;
+	     opacity: 0.4;
+ }
+.reservat-content .reservat-text{
+	    position: absolute ;
+	    top:50%;
+	    left: 40%;
+	    transform: translate(-50%, -50%);
+
+}
+/* style form*/
+.btn-block {
+	    background-color: #6c757d ;
+	    border-color: #6c757d;
+ 	    color: #f7f7f7;
+	    font-size: 17px;
+	    margin-bottom: 15px
+			
+}
+.btn-block:hover{
+	color: #fff ;
+	background-color: #6d7377e8;
+}
+/* start location*/
+.location h2:first-child{
+	margin-top: 0;
+	margin-bottom: 10px
+}
+#map {
+	height: 330px;
+}
+.location .footer {
+	padding-top: 22px;
+ 	margin-bottom: 20px;
+	margin-top: 20px
+}
+.social-icon {
+	font-size: 28px;
+	    color: #007bff;
+
+}
+/* footer for mobile */
+ 
+	@media screen and (max-width : 1920px){
+ .for-mobile{
+  visibility:hidden;
+		}}
+	@media screen and (max-width :  506px){
+ .for-mobile{
+  visibility:visible;
+		}
+ }
+  footer{
+	position: fixed;
+	bottom: 0px;
+	padding-top: 20px;
+ 
+}
+footer   .btn {
+	 width: 212px;
+	padding: 10px ;
+	color: #fff ;
+}
+/* media Query*/
+/* nav */
+.navbar-default .navbar-toggle {
+	padding: 12px;
+}
+.navbar-default .navbar-brand {
+	padding-bottom: 5px;
+}
+	@media screen and (max-width :  506px){
+ .Menu-card{
+ margin-bottom: 5px		}
+ }
+.navbar-default .navbar-toggle .icon-bar{
+	width: 25px;
+ }
